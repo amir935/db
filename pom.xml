@@ -59,7 +59,7 @@
 							<artifactId>mysql-connector-java</artifactId>
 						</sharedLibrary>
 					</sharedLibraries>
-					<classifier>---- select project type ----</classifier>
+					
 				</configuration>
 			</plugin>
 		</plugins>
