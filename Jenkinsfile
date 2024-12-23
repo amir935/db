@@ -6,7 +6,7 @@ pipeline {
     stages { 
         stage('Build Application') { 
             steps { 
-                bat 'mvn clean install' 
+                bat 'mvn clean' 
             } 
         } 
         stage('Deploy CloudHub') { 
