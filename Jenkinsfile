@@ -16,7 +16,8 @@ pipeline {
                 bat """
                     mvn clean deploy -DmuleDeploy ^
                     -Dusername=${ANYPOINT_CREDENTIALS_USR} ^
-                    -Dpassword=${ANYPOINT_CREDENTIALS_PSW}
+                    -Dpassword=${ANYPOINT_CREDENTIALS_PSW} ^
+                    -Dmule.http.socketTimeout=600000
                 """
             }  
         } 
