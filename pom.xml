@@ -36,8 +36,8 @@
       <environment>Sandbox</environment>
       <target>Cloudhub-US-East-2</target>
       <muleVersion>4.8.1</muleVersion>
-    <username>${anypoint.username}</username>
-        <password>${anypoint.password}</password>
+    <username>Amir122321</username>
+        <password>Amir122306</password>
       <applicationName>db</applicationName>
       <replicas>1</replicas>
       <vCores>0.1</vCores>
