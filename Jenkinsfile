@@ -5,7 +5,7 @@ pipeline {
         stage('Deploy CloudHub') {
             steps {
                 bat """
-                   mvn clean deploy -DmuleDeploy -Danypoint.username=Amir122321 -Danypoint.password=Amir122306
+                   mvn clean install deploy -DmuleDeploy -Danypoint.username=Amir122321 -Danypoint.password=Amir122306
                 """
             }
         }
